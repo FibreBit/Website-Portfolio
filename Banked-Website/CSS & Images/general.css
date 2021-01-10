@@ -1,0 +1,28 @@
+html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Press Start 2P';
+	scroll-behavior: smooth;
+}
+
+main{
+	margin: 0;
+	padding: 0;
+	font-family: 'Press Start 2P';
+}
+
+body{
+	margin: 0;
+}
+
+header{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	padding: 0;
+}

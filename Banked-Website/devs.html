@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="Welcome to the Banked website. Banked is a new mobile game which helps students to save money,
+    while also having fun!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banked Mobile</title>
+    <link rel="stylesheet" href="CSS & Images/navbar.css"/>
+    <link rel="stylesheet" href="CSS & Images/general.css"/>
+    <link rel="stylesheet" href="CSS & Images/header.css"/>
+    <link rel="stylesheet" href="CSS & Images/body.css"/>
+    <link rel="stylesheet" href="CSS & Images/footer.css"/>
+    <link rel="stylesheet" href="CSS & Images/contact.css"/>
+    <link rel="stylesheet" href="CSS & Images/devs.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script>
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+	</head>
+<main>
+    <body>
+	    <nav class="topnav">
+            <a href="contact.html" class="link">Contact</a>
+            <a href="devs.html" class="link">Devs</a>
+            <a href="index.html" class="link">About</a>
+            <a href="index.html" class="leftlink">BANKED</a>
+        </nav>
+        <header class="background-image-header">
+    	   <div class="background-image-overlay"></div>
+		   <h1 class="title-text" id="title-main-text">Developers</h1>
+			<div class="title-text" id="title-sub-text">Meet the team behind Banked</div>
+        </header>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+			<div class="members">
+					<div class="membercolum">
+						<img src="CSS & Images/Images/sarah.jpg" alt="sarah" style="width:300px;height:auto;">
+						<p>Sarah Bermingham</p>
+					</div>
+					<div class="membercolum">
+						<img src="CSS & Images/Images/me.png" alt="cameron" style="width:300px;height:auto;">
+						<p>Cameron Fitzpatrick</p>
+					</div>
+					<div class="membercolum">
+						<img src="CSS & Images/Images/ben.jpg" alt="ben" style="width:300px;height:auto;">
+						<p>Ben McQuaid</p>
+					</div>
+					<div class="membercolum">
+						<img src="CSS & Images/Images/ogo.jpg" alt="ogo" style="width:300px;height:auto;">
+						<p>Ogo Onafuwa</p>
+					</div>
+					<div class="membercolum">
+						<img src="CSS & Images/Images/niamh.jpg" alt="niamh" style="width:300px;height:auto;">
+						<p>Niamh Murphy</p>
+					</div>
+				</div>
+			</div>
+				<div class="footer-top">
+			<a href="#about" class="email">Email: queries@banked.com</a>
+			<a href="#about" class="phone">Phone: 087 123 4567</a>
+		</div>
+		<div class="footer-bottom">
+			<ul>
+				<li><a href="#">BANKED</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">DEVS</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+			<p>Copyright ©BankedIndustriesDCU</p>
+		</div>
+	</body>
+</main>

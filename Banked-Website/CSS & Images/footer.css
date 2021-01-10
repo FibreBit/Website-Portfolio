@@ -1,0 +1,48 @@
+.email{
+	float: left;
+	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.phone {
+	float: right;
+	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.footer-top {
+	background-color: #008809;
+	overflow: hidden;
+	border-top: 6px solid #111111;
+
+}
+
+
+
+.footer-bottom {
+	background-color: #0C3601;
+	overflow: hidden;
+}
+.footer-bottom a {
+	color: white;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+.footer-bottom li {
+	list-style-type: none;
+	padding-top: 10px;
+	padding-left: 0;
+}
+.footer-bottom p {
+	color: white;
+	text-align: center;
+	font-weight: italic;
+	font-size: 10px;
+}	

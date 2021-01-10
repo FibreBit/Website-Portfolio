@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="Welcome to the Banked website. Banked is a new mobile game which helps students to save money,
+    while also having fun!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banked Mobile</title>
+    <link rel="stylesheet" href="CSS & Images/navbar.css"/>
+    <link rel="stylesheet" href="CSS & Images/general.css"/>
+    <link rel="stylesheet" href="CSS & Images/header.css"/>
+    <link rel="stylesheet" href="CSS & Images/body.css"/>
+    <link rel="stylesheet" href="CSS & Images/footer.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script>
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document     JAVASCRIPT TAKEN FROM W3Schools.com
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</head>
+<main>
+    <body>
+	<nav class="topnav">
+        <a href="contact.html" class="link">Contact</a>
+        <a href="devs.html" class="link">Devs</a>
+        <a href="#about" class="link">About</a>
+        <a href="index.html" class="leftlink">BANKED</a>
+    </nav>
+
+    <header class="background-image-header">
+    	<div class="background-image-overlay"></div>
+        <h1 class="title-text" id="title-main-text">BANKED</h1>
+        <div class="title-text" id="title-sub-text">"A penny saved is a point earned"</div>
+    </header>
+
+		<div class="wrapper">
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+			<a name="about"></a> 
+			<div class='coin-border'>
+				<div class="colum">
+					<img src="CSS & Images/Images/coin.png" alt="Coin" class="coin-image">
+				</div>
+				<div class="colum">
+					<img src="CSS & Images/Images/coin.png" alt="Coin" class="coin-image">
+				</div>
+				<div class="colum">
+					<img src="CSS & Images/Images/coin.png" alt="Coin" class="coin-image">
+				</div>
+			</div>
+		    	<div class='About-text-body'>
+					<h1>About the app</h1>
+		    	    <p>Banked is a brand new mobile game that makes saving money for the future fun!
+						The game connects to the users savings account, and rewards the user with
+						in-game points every time they deposit money into this account. These
+						points allow the user to customize their in-game avatar with a range
+						of different clothing, houses, accessories and more! You can also
+						refer a friend and gain more in-game points while also helping
+						someone else!
+		    	    </p>
+					<br>
+					<img src="CSS & Images/Images/header.png" alt="banner" class="banner">
+					<p>
+					Our app is designed to help and encourage its  users to save money.
+					It makes saving money fun and exciting.
+					Users can set customized goals and targets,
+					and features in the game are unlocked whenever a user reaches  a new milestone.
+		    	    </p>
+					<br>
+					<br>
+					<h1>Who is Banked for?</h1>
+					<p>We conducted a survey of our year group, containing questions related to phone usage and spending
+					habits. We found that the majority of people in our course spend at least 4+ hours a day on their phone.
+					We also found that over 60% of our course-mates worry about their savings. At Banked, we set out to make
+					and app that would make saving up money fun and easy, by utilizing our already heavy mobile phone usage in
+					todays society. </p>
+					<div class="piecolum">
+						<img id="myImg" src="CSS & Images/Images/piechart1.png" alt="piech" class="pie">
+					</div>
+					<div class="piecolum">
+						<img src="CSS & Images/Images/piechart2.png" alt="piech" class="pie">
+					</div>
+		    	</div>
+		    <div class='char-banner'>
+		    	<img src="CSS & Images/Images/charborder.jpg" alt="char" class="char-image">
+		    </div>
+		</div>
+		<div class="footer-top">
+			<a href="#about" class="email">Email: queries@banked.com</a>
+			<a href="#about" class="phone">Phone: 087 123 4567</a>
+		</div>
+		<div class="footer-bottom">
+			<ul>
+				<li><a href="#">BANKED</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">DEVS</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+			<img src="CSS & Images/Images/download.png" alt="download" class="download">
+			<p>Copyright ©BankedIndustriesDCU</p>
+		</div>
+	</body>
+</main>
